@@ -10,6 +10,9 @@ public class CaixaDaguaController {
 
     @GetMapping("/start")
     public boolean setStartCaixaDagua(){
+        System.out.println(
+                "entrada"
+        );
         return true;
     }
 }
